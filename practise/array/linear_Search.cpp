@@ -5,7 +5,7 @@ int main(){
     int target;
     int size = sizeof(arr)/sizeof(int);
     cout << "enter the targeted value you want to find:";
-    cin >> target;
+    cin >> target;cout<< "ddddd";
     for(int i = 0;i <size - 1;i++){
         if(arr[i] == target){
         cout << "found it at the index: "  << i << endl;
